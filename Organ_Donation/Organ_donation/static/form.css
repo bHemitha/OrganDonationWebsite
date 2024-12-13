@@ -1,0 +1,166 @@
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(216, 188, 151);
+}
+legend
+{
+    color: rgb(216, 188, 151);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(216, 188, 151);
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-group label {
+    margin-right: 20px;
+    font-weight: normal;
+    color: #ccc;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: rgb(216, 188, 151);
+    background-color: #555;
+    appearance: none;
+}
+
+.form-group select:focus {
+    outline: none;
+    border-color: #282929;
+    box-shadow: 0 0 0 2px rgba(77, 144, 254, 0.2);
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ccc;
+    background-color: #000;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(216, 188, 151);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: rgb(216, 188, 151);
+}
+
+form select {
+    height: 40px;
+}
+
+.acknowledgment {
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(216, 188, 151);
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(216, 188, 151);
+}
+
+form {
+    margin-top: 30px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.signature {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signature label {
+    margin-bottom: 10px;
+    color: rgb(216, 188, 151);
+}
+
+#donor-signature,
+#witness-signature,
+#doctor-signature {
+    border: 2px solid rgb(216, 188, 151);
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    height: 150px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #d1b796;
+}
+
+form .error-message {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button {
+    background: rgb(216, 188, 151);
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(216, 188, 151);
+}
+
+.button:active {
+    background-color: #302f2e;
+}
