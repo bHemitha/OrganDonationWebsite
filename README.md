@@ -35,7 +35,7 @@ This project involves the development of a comprehensive Organ Donation Website 
 ## How to Run the Project
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Dishatimbadiya/organ-donation.git
+   git clone https://github.com/bHemitha/organ-donation.git
 2. **Database Configuration :**
    - Set up a MySQL database and configure the connection in connection.php.
 3. **Run the Project:**
